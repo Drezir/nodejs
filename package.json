@@ -1,0 +1,30 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "NodeJS tutorial",
+  "main": "simple-server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon simple-server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Drezir/nodejs.git"
+  },
+  "keywords": [
+    "nodejs"
+  ],
+  "author": "Adam Ostrožlík",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Drezir/nodejs/issues"
+  },
+  "homepage": "https://github.com/Drezir/nodejs#readme",
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4"
+  }
+}
